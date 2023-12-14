@@ -1,23 +1,20 @@
-.main{
-    margin: 50px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+*{
+    padding: 0;
+    margin: 0;
 }
-.bulp{
+.green{
+    width: 100%;
+    height: 650px;
+    background-color: green;
+    position: relative;
+}
+.red{
     width: 150px;
     height: 150px;
-    /* background-color: black; */
-    border: 1px solid gray;
-    border-radius: 100%;
-}
-.btn{
-    width: 100px;
-    height: 30px;
-    background-color: greenyellow;
     position: absolute;
-    border: none;
-    top: 180px;
+    background-color: red;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    border-radius: 100%;
 }
